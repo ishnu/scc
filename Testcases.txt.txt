@@ -1,0 +1,81 @@
+::TEST CASES::
+
+#1
+0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+Test name: Test for order of 111
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=1110;vidd=111 | quantity=1111; ether=99.9999999999999956633
+Result: Passed
+
+
+#2
+0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
+Test name: Test for order of 222
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=2220;vidd=222 | quantity=2222; ether=99.999999999999995343
+Result: Pass
+
+#3
+0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+Test name: Test for order of 333
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=3330;vidd=333 | quantity=1111; ether=99.9999999999999949633
+Result: Pass
+
+#4
+0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB
+Test name: Test for order of 444
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=4440;vidd=444 | quantity=4444; ether=99.99999999999999746383
+Result: Pass
+
+#5
+0x617F2E2fD72FD9D5503197092aC168c91465E7f2
+Test name: Test for order of 555
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=5550;vidd=555 | quantity=5555; ether=99.999999999999654785
+Result: Pass
+
+#6
+0x17F6AD8Ef982297579C203069C1DbfFE4348c372
+Test name: Test for order of 666
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=1110;vidd=111 | quantity=1111; ether=99.9999999999999974623
+Result
+
+#7
+0x5c6B0f7Bf3E7ce046039Bd8FABdfD3f9F5021678
+Test name: Test for order of 777
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity<--cvalue=1110;vidd=777 | quantity=7777; ether=99.9999999999999956633
+Result: 
+
+#8
+0x03C6FcED478cBbC9a4FAB34eF9f40767739D1Ff7
+Test name: Test for order of 888
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Result
+
+#9
+0x1aE0EA34a72D944a8C7603FfB3eC30a6669E454C
+Test name: Test for order of 999
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity=;cvalue=;vidd=;quantity=;
+Result
+
+#10
+0x0A098Eda01Ce92ff4A4CCb7A4fFFb5A43EBC70DC
+Test name: Test for order of 1110
+Test Description: User calls acceptQuantity with the quantity as a parameter and enter the beach_id and quantity.
+Desired Outcome: On clicking the quantity function we able to see quantity and request for payment
+Actual Outcome: acceptQuantity=;cvalue=;vidd=;quantity=;
+Result
